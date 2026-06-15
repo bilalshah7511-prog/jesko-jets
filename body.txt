@@ -10,6 +10,7 @@
   --mask-y: 0%;
   --mask-size: 100% 200%;
 
+
   -webkit-mask-position: var(--mask-x) var(--mask-y);
   mask-position: var(--mask-x) var(--mask-y);
 
