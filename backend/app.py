@@ -16,6 +16,8 @@ CITIES = [
     {"name": "Cairo", "timezone": "Africa/Cairo"},
 ]
 
+
+
 @app.route('/api/cities', methods=['GET'])
 def get_cities():
     response_data = []
