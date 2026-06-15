@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function AdvantagesSection() {
   const containerRef = useRef(null);
 
+
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from('.adv-card', {
@@ -51,3 +52,6 @@ export default function AdvantagesSection() {
     </section>
   );
 }
+
+
+
